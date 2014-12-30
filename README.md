@@ -18,6 +18,8 @@ The bot is not terribly smart, and AutoHotkey isn't the best language for seriou
 
 At any rate, it turns out [Minesweeper is really hard](http://web.mat.bham.ac.uk/R.W.Kaye/minesw/ordmsw.htm).
 
+Bonus: All my games are stored in the vids directory. If you remove ZookBot.csv the high scores will display my actual high scores. From the game, you can open a replay from the archive subdirectory. My best times are stored in the flags and noflags folders there. It turns out that playing without flags is faster on Beginner and Intermediate, and playing with flags is faster on Expert. There's also an Excel spreadsheet in the root directory with some data.
+
 ---
 
 For bots that screen scrape (Bejeweled and Minesweeper), disable desktop composition for a huge speed increase.
