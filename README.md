@@ -12,6 +12,8 @@ There is a meta script contained in the script. If you uncomment the hotkeys for
 
 Minesweeper is actually ViennaSweeper, one of the leading clones designed for speed competition. The full program is included. Run minesweeper.bat to open the game, and run Minesweeper.ahk to run the bot. Ctrl-Space starts the bot, and it will happily keep playing until you pause it with the grave key (single tick, under the escape key). Image detection for locating the board seems to not work on Windows 8, but it should be fine on 7 and XP. I don't feel like porting it to Win 8 at the moment.
 
+You can see which pixels the bot uses to determine what a square is by looking at the Squares.bmp file. The file isn't used by the bot though.
+
 The bot is not terribly smart, and AutoHotkey isn't the best language for serious coding, so I haven't improved it. It only handles completely deterministic logic. If it knows a square is a mine, it remembers it, but it doesn't handle situations such as "one of these 2 squares must be a mine, so the 3rd square is determined." If it can't determine a safe move (including at the start of the game), it guesses randomly.
 
 At any rate, it turns out [Minesweeper is really hard](http://web.mat.bham.ac.uk/R.W.Kaye/minesw/ordmsw.htm).
