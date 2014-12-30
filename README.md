@@ -4,7 +4,7 @@ The detection of gem color is particularly difficult, and is not perfect because
 
 
 
-(Block Dude)[http://azich.org/blockdude/] is a port of a popular calculator game. Optimal solutions to each level are coded into the script. Run them with Alt-1, Alt-2, ... Alt-9, Alt-0, Alt-minus.
+[Block Dude](http://azich.org/blockdude/) is a port of a popular calculator game. Optimal solutions to each level are coded into the script. Run them with Alt-1, Alt-2, ... Alt-9, Alt-0, Alt-minus.
 
 There is a meta script contained in the script. If you uncomment the hotkeys for the arrows and right alt, the bot will record arrow key presses. Press the right alt key while in an empty notepad file and the bot will spit out the code to replay the key presses. Multiples of the same key in a row are collapsed.
 
@@ -14,7 +14,7 @@ Minesweeper is actually ViennaSweeper, one of the leading clones designed for sp
 
 The bot is not terribly smart, and AutoHotkey isn't the best language for serious coding, so I haven't improved it. It only handles completely deterministic logic. If it knows a square is a mine, it remembers it, but it doesn't handle situations such as "one of these 2 squares must be a mine, so the 3rd square is determined." If it can't determine a safe move (including at the start of the game), it guesses randomly.
 
-At any rate, it turns out (Minesweeper is really hard)[http://web.mat.bham.ac.uk/R.W.Kaye/minesw/ordmsw.htm].
+At any rate, it turns out [Minesweeper is really hard](http://web.mat.bham.ac.uk/R.W.Kaye/minesw/ordmsw.htm).
 
 
 
